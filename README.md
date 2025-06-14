@@ -21,19 +21,27 @@ Este sistema inteligente de monitoreo de plantas está diseñado con Arduino Uno
 
 ## 📌 Características
 ✅ Sensor de humedad de suelo: Mide el nivel de agua en el suelo y sirve para determinar si el suelo está seco, existe riego excesivo o las condiciones son normales. 
+
 ✅ Sensor DHT11: Mide la temperatura y humedad del entorno.
+
 ✅ Display LCD 16x2 con I2C: Muestra datos en tiempo real para la humedad del suelo, temperatura y humedad del ambiente. 
+
 ✅ LED RGB (Common Cathode): 
 - Verde 🟢: Humedad del suelo normal. 
 - Blue 🔵: Humedad excesiva. 
 - Red 🔴: Suelo muy seco. 
+
 ✅ Buzzer: Alerta cuando las condiciones se vuelven críticas (suelo muy seco o humedad excesiva). 
 
 ## 📌 Funcionamiento
 1️⃣ El sensor de humedad de suelo detecta el porcentaje de humedad en el suelo y proporciona un valor analógico.
+
 2️⃣ El sensor DHT11 mide la temperatura y la humedad del entorno y envía los datos al Arduino. 
+
 3️⃣ El display LCD 16x2 muestra los valores de la humedad en el suelo, la temperatura y la humedad del entorno.
+
 4️⃣ El LED RGB cambia de color según las condiciones del suelo. 
+
 5️⃣ El Buzzer suena cuando el suelo está seco o hay un exceso de humedad.
 
 ## Alertas del sistema
@@ -53,4 +61,5 @@ Este sistema inteligente de monitoreo de plantas está diseñado con Arduino Uno
 | Buzzer                     | +, -                | Pin 6, GND                                |
 
 ✅ La Protoboard se utiliza para múltiples conexiones de 5 V y GND. 
+
 ✅ El LED RGB utiliza cátodo común → HIGH para encendido, LOW para apagado.
