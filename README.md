@@ -28,8 +28,8 @@ Este sistema inteligente de monitoreo de plantas está diseñado con Arduino Uno
 
 ✅ LED RGB (Common Cathode): 
 - Verde 🟢: Humedad del suelo normal. 
-- Blue 🔵: Humedad excesiva. 
-- Red 🔴: Suelo muy seco. 
+- Azul 🔵: Humedad excesiva. 
+- Rojo 🔴: Suelo muy seco. 
 
 ✅ Buzzer: Alerta cuando las condiciones se vuelven críticas (suelo muy seco o humedad excesiva). 
 
