@@ -51,7 +51,7 @@ Ver/Descargar [Código](./Main/Main.ino)
 | Muy Seco                   |   <30%          |🔴 Rojo       | ON     |
 | Muy Húmedo                 |   >90%          |🔵 Azul       | ON     |
 
-## 📌 Componentes y Cableado 
+## 🔌 Componentes y Cableado 
 | Componentes                | Pines               | Conexión con Arduino                      |
 |----------------------------|---------------------|-------------------------------------------|
 | Sensor de humedad de suelo | VCC, GND, A0        | 5V, GND, A0                               |
@@ -59,6 +59,8 @@ Ver/Descargar [Código](./Main/Main.ino)
 | Display LCD                | GND, VCC, SCL, SDA  | GND, 5V, A5 (SCL), A4 (SDA)               |        
 | LED RGB (Common Cathode)   | R, CC, G, B         | Pin 3 (R), CC (GND), Pin 4 (B), Pin 5 (G) | 
 | Buzzer                     | +, -                | Pin 6, GND                                |
+
+![alt text](./Imagenes/esquematico.PNG)
 
 ✅ La Protoboard se utiliza para múltiples conexiones de 5 V y GND. 
 
