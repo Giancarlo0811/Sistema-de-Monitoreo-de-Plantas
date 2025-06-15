@@ -17,7 +17,7 @@ Este sistema inteligente de monitoreo de plantas está diseñado con Arduino Uno
 - Protoboard
 
 ## 💻 Código
-[Código](./Main/Main.ino)
+Ver/Descargar [Código](./Main/Main.ino)
 
 ## 📌 Características
 ✅ Sensor de humedad de suelo: Mide el nivel de agua en el suelo y sirve para determinar si el suelo está seco, existe riego excesivo o las condiciones son normales. 
