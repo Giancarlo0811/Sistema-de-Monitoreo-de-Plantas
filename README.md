@@ -60,7 +60,7 @@ Ver/Descargar [Código](./Main/Main.ino)
 | LED RGB (Common Cathode)   | R, CC, G, B         | Pin 3 (R), CC (GND), Pin 4 (B), Pin 5 (G) | 
 | Buzzer                     | +, -                | Pin 6, GND                                |
 
-![alt text](./Imagenes/esquematico.PNG)
+![alt text](./Imagenes/schematic.PNG)
 
 ✅ La Protoboard se utiliza para múltiples conexiones de 5 V y GND. 
 
